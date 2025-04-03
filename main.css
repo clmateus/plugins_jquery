@@ -118,3 +118,8 @@ section h2 {
 .item-central {
     margin: 0 5%;
 }
+
+.price del {
+    color: #ccc;
+    font-size: 14px;
+}
