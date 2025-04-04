@@ -16,12 +16,21 @@ html {
 }
 
 header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header,
+footer {
   background-color: #192a56;
   padding-top: 16px;
   color: #fff;
 }
 
-header > .container {
+header > .container,
+footer > .container { 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,4 +160,13 @@ form {
 
 form button {
   max-width: 120px;
+}
+
+footer li {
+  list-style: none;
+  margin-left: 16px;
+}
+
+footer ul li img {
+  height: 32px;
 }
